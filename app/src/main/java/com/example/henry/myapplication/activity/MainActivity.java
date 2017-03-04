@@ -47,4 +47,8 @@ public class MainActivity extends AppCompatActivity {
         Intent intent = new Intent(MainActivity.this,DivegerViewActivity.class);
         startActivity(intent);
     }
+    public void showPullToRefresh(View view){
+        Intent intent = new Intent(MainActivity.this,PullToRefreshActivity.class);
+        startActivity(intent);
+    }
 }

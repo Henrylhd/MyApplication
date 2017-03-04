@@ -43,5 +43,16 @@
        android:layout_alignLeft="@+id/showWheelPickerbtn"
        android:layout_alignStart="@+id/showWheelPickerbtn" />
 
+   <Button
+       android:text="上拉刷新下拉加载"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_below="@+id/btnDivergeView"
+       android:layout_alignRight="@+id/btnDivergeView"
+       android:layout_alignEnd="@+id/btnDivergeView"
+       android:layout_marginTop="15dp"
+       android:id="@+id/btn_pull_to_refresh_listview"
+       android:onClick="showPullToRefresh" />
+
 
 </RelativeLayout>

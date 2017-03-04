@@ -17,7 +17,8 @@
         </activity>
         <activity android:name=".activity.WheelPickkerActivity" />
         <activity android:name=".activity.DivegerViewActivity" />
-        <activity android:name=".activity.BottomBarActivity"></activity>
+        <activity android:name=".activity.BottomBarActivity" />
+        <activity android:name=".activity.PullToRefreshActivity"></activity>
     </application>
 
 </manifest>
