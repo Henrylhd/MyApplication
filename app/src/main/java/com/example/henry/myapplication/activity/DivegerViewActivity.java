@@ -18,6 +18,13 @@ import java.util.ArrayList;
 import lib.homhomlib.view2.DivergeView;
 
 public class DivegerViewActivity extends AppCompatActivity {
+    /**
+     *
+     *  @作者  henry
+     *
+     *  @创建日期   2017/3/4 16:23
+     *
+     */
     private DivergeView mDivergeView;
     private Button mBtnStart;
     private Button mBtnBack;

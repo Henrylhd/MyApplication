@@ -9,6 +9,14 @@ import com.roughike.bottombar.BottomBar;
 import com.roughike.bottombar.OnTabSelectListener;
 
 public class BottomBarActivity extends AppCompatActivity {
+    /**
+     *
+     *  @作者  henry
+     *
+     *  @创建日期   2017/3/4 16:22
+     *
+     */
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -19,10 +27,7 @@ public class BottomBarActivity extends AppCompatActivity {
         bottomBar.setOnTabSelectListener(new OnTabSelectListener() {
             @Override
             public void onTabSelected(@IdRes int tabId) {
-              /*  if (tabId == R.id.tab_favorites) {
-                    // The tab with id R.id.tab_favorites was selected,
-                    // change your content accordingly.
-                }*/
+                //// TODO: 2017/3/4
             }
         });
     }
