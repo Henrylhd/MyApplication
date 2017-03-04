@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_wheel_pickker"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context="com.example.henry.myapplication.activity.WheelPickkerActivity">
+
+
+  <com.itheima.wheelpicker.WheelPicker
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      app:wheel_atmospheric="true"
+      app:wheel_curved="true"
+      app:wheel_cyclic="true"
+      app:wheel_selected_item_position="5"
+      app:wheel_item_text_color="#0000ff"
+      app:wheel_selected_item_text_color="#ff0000"
+      android:id="@+id/wheelPicker" />
+
+    <!--属性解释:
+
+        wheel_atmospheric :  条目颜色是否执行衔接处理 效果更好
+        wheel_curved ： 是否是弧形状态显示
+        wheel_cyclic : 是否可循环
+        wheel_selected_item_position ： 默认选中第几个条目
+        wheel_item_text_color 未选中的条目颜色
+        wheel_selected_item_text_color  选中的条目颜色-->
+
+  <Button
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:id="@+id/backToMainBtn"
+      android:onClick="backToMain"
+      android:text="返回主界面"
+      android:layout_alignParentTop="true"
+      android:layout_toRightOf="@+id/wheelPicker"
+      android:layout_toEndOf="@+id/wheelPicker"
+      android:layout_marginLeft="46dp"
+      android:layout_marginStart="46dp"
+      android:layout_marginTop="11dp" />
+</RelativeLayout>
